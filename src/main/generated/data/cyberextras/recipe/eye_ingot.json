@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyberextras:eye_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cyberextras:eye_ingot"
+  }
+}

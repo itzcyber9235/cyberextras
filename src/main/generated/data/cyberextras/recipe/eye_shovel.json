@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "cyberextras:eye_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " E ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cyberextras:eye_shovel"
+  }
+}
