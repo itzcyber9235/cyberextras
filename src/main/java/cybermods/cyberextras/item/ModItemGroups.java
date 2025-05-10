@@ -19,10 +19,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.EYE_INGOT))
                     .displayName(Text.translatable("itemgroup.cyberextras.cyber_extras"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.EYE_DUST);
-                        entries.add(ModBlocks.EYE_BLOCK);
+                        entries.add(ModItems.EYE_SWORD);
                         entries.add(ModItems.EYE_PICKAXE);
+                        entries.add(ModItems.EYE_SHOVEL);
+                        entries.add(ModItems.EYE_DUST);
                         entries.add(ModItems.COMPACTED_EYE_DUST);
+                        entries.add(ModItems.EYE_INGOT);
+                        entries.add(ModBlocks.EYE_BLOCK);
                     })
 
 
@@ -30,5 +33,6 @@ public class ModItemGroups {
 
     public static void registerItemGroups(){
         Cyberextras.LOGGER.info("Registering Item Groups for " + Cyberextras.MOD_ID);
+
     }
 }

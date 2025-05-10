@@ -1,6 +1,7 @@
 package cybermods.cyberextras;
 
 import cybermods.cyberextras.block.ModBlocks;
+import cybermods.cyberextras.item.ModItemGroups;
 import cybermods.cyberextras.item.ModItems;
 import cybermods.cyberextras.util.EyePickaxeUsageEvent;
 import cybermods.cyberextras.util.EyeShovelUsageEvent;
@@ -30,6 +31,7 @@ public class Cyberextras implements ModInitializer {
 
 		PlayerBlockBreakEvents.BEFORE.register(new EyePickaxeUsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new EyeShovelUsageEvent());
+		ModItemGroups.registerItemGroups();
 		//Same as the registerModitems function above but for registerItemgroups from the moditemgroups class.
 
 	}
