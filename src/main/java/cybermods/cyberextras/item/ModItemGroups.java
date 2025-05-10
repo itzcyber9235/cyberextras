@@ -14,7 +14,19 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
+    public static ItemGroup NANABA_PLAYTIME = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Cyberextras.MOD_ID,"cyber_extras"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.EYE_INGOT))
+                    .displayName(Text.translatable("itemgroup.cyberextras.cyber_extras"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.EYE_DUST);
+                        entries.add(ModBlocks.EYE_BLOCK);
+                        entries.add(ModItems.EYE_PICKAXE);
+                        entries.add(ModItems.COMPACTED_EYE_DUST);
+                    })
 
+
+                    .build());
 
     public static void registerItemGroups(){
         Cyberextras.LOGGER.info("Registering Item Groups for " + Cyberextras.MOD_ID);
