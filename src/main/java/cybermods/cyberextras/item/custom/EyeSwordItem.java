@@ -19,7 +19,7 @@ public class EyeSwordItem extends SwordItem {
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 if(target.getHealth() != 0) {
-    MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.translatable("Your Target's health is " + (target.getHealth() + target.getAbsorptionAmount())));
+   attacker.sendMessage(Text.translatable("Your target's health is " + target.getHealth() + target.getAbsorptionAmount()));
 
 }
 

@@ -39,16 +39,11 @@ public class EyePickaxeItem extends PickaxeItem {
                 for(int y = -range; y<= range; y++){
                     for(int z = -range; z<= range; z++){
                         BlockState state = player.getWorld().getBlockState(new BlockPos(initialblockpos.getX() + x, initialblockpos.getY() + y, initialblockpos.getZ() + z));
-                        if(limit == 0){
-                            if (state.isOf(Blocks.DEEPSLATE_DIAMOND_ORE)|| state.isOf(Blocks.DIAMOND_ORE) || state.isOf(Blocks.COPPER_ORE)
-                                    || state.isOf(Blocks.COAL_ORE) || state.isOf(Blocks.EMERALD_ORE) || state.isOf(Blocks.GOLD_ORE)
-                                    || state.isOf(Blocks.REDSTONE_ORE) || state.isOf(Blocks.LAPIS_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE)
-                                    || state.isOf(Blocks.DEEPSLATE_COAL_ORE) || state.isOf(Blocks.DEEPSLATE_COPPER_ORE)
-                                    || state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_EMERALD_ORE) || state.isOf(Blocks.DEEPSLATE_GOLD_ORE)
-                                    || state.isOf(Blocks.DEEPSLATE_REDSTONE_ORE) || state.isOf(Blocks.DEEPSLATE_LAPIS_ORE) || state.isOf(Blocks.ANCIENT_DEBRIS)){
+
+
                                 positions.add(new BlockPos(initialblockpos.getX() + x, initialblockpos.getY() + y, initialblockpos.getZ() + z));
-                                limit = 1;
-                        }
+
+
 
 
 
@@ -59,10 +54,11 @@ public class EyePickaxeItem extends PickaxeItem {
                     }
                 }
             }
+        return positions;
         }
 
-        return positions;
+
     }
-}
+
 
 

@@ -63,7 +63,7 @@ public class EyePickaxeUsageEvent implements PlayerBlockBreakEvents.Before {
 
 
                     HARVESTED_BLOCKS.add(position);
-                    MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.translatable("Found!"));
+                    serverPlayer.interactionManager.tryBreakBlock(position);
                     HARVESTED_BLOCKS.remove(position);
                     //limit = 1;
                 }
