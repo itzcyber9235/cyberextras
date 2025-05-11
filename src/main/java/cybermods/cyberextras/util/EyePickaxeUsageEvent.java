@@ -52,7 +52,7 @@ public class EyePickaxeUsageEvent implements PlayerBlockBreakEvents.Before {
                 }
 
 
-                for (BlockPos position : EyePickaxeItem.BLOCKS_TO_BE_CHECKED(2, pos, serverPlayer)) {
+                for (BlockPos position : EyePickaxeItem.BLOCKS_TO_BE_CHECKED(1, pos, serverPlayer)) {
                     if (pos == position || !hammer.isCorrectForDrops(mainHandItem, world.getBlockState(position))) {
 
 
