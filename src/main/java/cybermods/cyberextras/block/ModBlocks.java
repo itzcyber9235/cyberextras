@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-public static final Block EYE_BLOCK = registerBlock("eye_block",
+public static final Block EYE_BLOCK = registerBlock("eye_block.png",
        new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.SCULK)));
 
     private static Block registerBlock(String name, Block block){
