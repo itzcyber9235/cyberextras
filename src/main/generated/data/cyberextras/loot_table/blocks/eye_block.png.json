@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cyberextras:eye_block"
+          "name": "cyberextras:eye_block.png"
         }
       ],
       "rolls": 1.0
