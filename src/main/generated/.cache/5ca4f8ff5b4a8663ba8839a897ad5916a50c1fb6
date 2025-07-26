@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-26T16:02:24.334599521	cyberextras/Recipes
+// 1.21.1	2025-07-26T16:42:32.052438466	cyberextras/Recipes
 4e9b953c4c030cfdf7dee1da0cb754e4f0be8c82 data/cyberextras/advancement/recipes/misc/eye_ingot.json
 09c3528b6181c1355aabe58b518b725b0e19abde data/cyberextras/advancement/recipes/misc/eye_pickaxe.json
 ffd842969816ae81a63203490b4929355e06064e data/cyberextras/recipe/eye_shovel.json
@@ -8,10 +8,12 @@ e298f46f475d949cb99afac29452909d8350d07d data/cyberextras/advancement/recipes/mi
 815dd741049315dd73c7204206198d5789267f55 data/cyberextras/advancement/recipes/misc/eye_ingot_from_smelting_compacted_eye_dust.json
 1d0c20f73a20bd998c8b006042bab53aba997ef5 data/cyberextras/advancement/recipes/misc/eye_shovel.json
 33e86de5d1a0db4809730b0106914546fe15ae04 data/cyberextras/recipe/compacted_eye_dust.json
+7df2a5678e9319d1b6df60bd1ab9b04cd710b28e data/cyberextras/recipe/audio_log_025_disc.json
 427c3ea61c024ce19dad411399ed9c535f07d068 data/cyberextras/recipe/eye_sword.json
 028ef9e40c7fdd7137d9166c9fd0feefc754df3a data/cyberextras/advancement/recipes/misc/eye_dust_from_ender_eye.json
 87c0a570a64e467d81488aa019cd5dee55a0af35 data/cyberextras/recipe/eye_block.png.json
 844ff89c701996e7232aba025b2095117e9aac7b data/cyberextras/recipe/eye_pickaxe.json
 2c690344b98cada5c7bbda3726fad80259f5821e data/cyberextras/advancement/recipes/misc/eye_sword.json
+8ed760a66e7852b2a3746f6f1e14e4b5f54fc473 data/cyberextras/advancement/recipes/misc/audio_log_025_disc.json
 5b410683533700f88458423f863299c58854147f data/cyberextras/recipe/eye_dust_from_ender_eye.json
 f2aad8dd62ff17be01732e19aaad77d64a0208b5 data/cyberextras/advancement/recipes/misc/eye_block.png.json

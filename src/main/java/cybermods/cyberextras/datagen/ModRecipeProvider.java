@@ -58,6 +58,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.EYE_INGOT), conditionsFromItem(ModItems.EYE_INGOT))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AUDIO_LOG_025_DISC)
+                .pattern("DDD")
+                .pattern("D  ")
+                .pattern("DDD")
+                .input('D', Items.DIRT)
+                .criterion(hasItem(Items.DIRT), conditionsFromItem(Items.DIRT))
+                .offerTo(exporter);
     }
 }
 
