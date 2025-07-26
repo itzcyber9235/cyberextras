@@ -28,5 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EYE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EYE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EYE_SHOVEL, Models.HANDHELD);
+
+
+        itemModelGenerator.register(ModItems.AUDIO_LOG_025_DISC, Models.GENERATED);
     }
 }

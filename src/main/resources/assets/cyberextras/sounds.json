@@ -1,0 +1,10 @@
+{
+  "audio_log_025":{
+    "sounds": [
+      {
+        "name": "cyberextras:audio_log_025",
+        "stream": true
+      }
+    ]
+  }
+}

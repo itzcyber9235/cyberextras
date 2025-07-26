@@ -9,10 +9,10 @@ import net.minecraft.registry.tag.BlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagPorvider extends FabricTagProvider.BlockTagProvider {
+public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
-    public ModBlockTagPorvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 

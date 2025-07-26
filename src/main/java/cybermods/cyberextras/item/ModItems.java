@@ -4,6 +4,7 @@ import cybermods.cyberextras.Cyberextras;
 import cybermods.cyberextras.item.custom.EyePickaxeItem;
 import cybermods.cyberextras.item.custom.EyeShovelItem;
 import cybermods.cyberextras.item.custom.EyeSwordItem;
+import cybermods.cyberextras.sound.ModSounds;
 import cybermods.cyberextras.util.ModTags;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -29,7 +30,8 @@ public class ModItems {
             .attributeModifiers(EyeShovelItem.createAttributeModifiers(ModToolMaterials.EYE_MATERIAL, 1, -2.8f))));
 
 
-
+    public static final Item AUDIO_LOG_025_DISC = registerItem("audio_log_025_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.AUDIO_LOG_025_KEY).maxCount(1)));
 
 
 
