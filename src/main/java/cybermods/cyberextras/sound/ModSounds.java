@@ -15,6 +15,9 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> AUDIO_LOG_025_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Cyberextras.MOD_ID, "audio_log_025"));
 
+    public static final SoundEvent NYAN_CAT = registerSoundEvent("nyan_cat");
+    public static final RegistryKey<JukeboxSong> NYAN_CAT_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Cyberextras.MOD_ID, "nyan_cat"));
 
     private static SoundEvent registerSoundEvent (String name){
         Identifier id = Identifier.of(Cyberextras.MOD_ID, name);

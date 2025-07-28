@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static ItemGroup NANABA_PLAYTIME = Registry.register(Registries.ITEM_GROUP,
+    public static ItemGroup CYBER_EXTRAS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Cyberextras.MOD_ID,"cyber_extras"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.EYE_INGOT))
                     .displayName(Text.translatable("itemgroup.cyberextras.cyber_extras"))

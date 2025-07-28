@@ -33,6 +33,11 @@ public class ModItems {
     public static final Item AUDIO_LOG_025_DISC = registerItem("audio_log_025_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.AUDIO_LOG_025_KEY).maxCount(1)));
 
+    public static final Item MUSIC_DISC_NYAN_CAT = registerItem("music_disc_nyan_cat",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.NYAN_CAT_KEY).maxCount(1)));
+
+    public static final Item MUSIC_DISC_BLANK = registerItem("music_disc_blank", new Item(new Item.Settings()));
+
 
 
     private static Item registerItem(String name, Item item){

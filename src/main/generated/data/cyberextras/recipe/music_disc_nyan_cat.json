@@ -6,11 +6,11 @@
       "item": "cyberextras:music_disc_blank"
     },
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:cookie"
     }
   ],
   "result": {
     "count": 1,
-    "id": "cyberextras:audio_log_025_disc"
+    "id": "cyberextras:music_disc_nyan_cat"
   }
 }

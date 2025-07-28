@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cyberextras:audio_log_025_disc"
+        "recipe": "cyberextras:music_disc_nyan_cat"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "cyberextras:audio_log_025_disc"
+      "cyberextras:music_disc_nyan_cat"
     ]
   }
 }

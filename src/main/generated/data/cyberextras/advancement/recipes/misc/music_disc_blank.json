@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_music_disc_blank": {
+    "has_disc_fragment_5": {
       "conditions": {
         "items": [
           {
-            "items": "cyberextras:music_disc_blank"
+            "items": "minecraft:disc_fragment_5"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cyberextras:audio_log_025_disc"
+        "recipe": "cyberextras:music_disc_blank"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_music_disc_blank"
+      "has_disc_fragment_5"
     ]
   ],
   "rewards": {
     "recipes": [
-      "cyberextras:audio_log_025_disc"
+      "cyberextras:music_disc_blank"
     ]
   }
 }
