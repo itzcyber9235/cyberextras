@@ -11,6 +11,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -68,6 +69,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('F', Items.DISC_FRAGMENT_5)
                 .criterion(hasItem(Items.DISC_FRAGMENT_5), conditionsFromItem(Items.DISC_FRAGMENT_5))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 2)
+                .pattern("EEE")
+                .pattern("EDE")
+                .pattern("EEE")
+                .input('E', Items.ECHO_SHARD)
+                .input('D', ModItems.MUSIC_DISC_BLANK)
+                .criterion(hasItem(Items.DISC_FRAGMENT_5), conditionsFromItem(Items.DISC_FRAGMENT_5))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MUSIC_DISC_BLANK)+ "_duplicator"));
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AUDIO_LOG_025_DISC, 1)
                 .input(ModItems.MUSIC_DISC_BLANK)
@@ -80,6 +89,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.COOKIE)
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
                 .offerTo(exporter);
+
     }
 }
 
