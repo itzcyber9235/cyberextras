@@ -12,8 +12,9 @@ public class ModEntities {
 
 public static final EntityType<BiterEntity> BITER = Registry.register(Registries.ENTITY_TYPE,
         Identifier.of(Cyberextras.MOD_ID, "biter"),
-        EntityType.Builder.create(BiterEntity::new, SpawnGroup.WATER_CREATURE)
-                .dimensions(0.5f, 0.25f).build());
+        EntityType.Builder.create(BiterEntity::new, SpawnGroup.AXOLOTLS)
+                .dimensions(0.5f, 0.25f)
+                .build());
 
 
     public static void registerModEntities(){

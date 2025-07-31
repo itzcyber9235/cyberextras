@@ -6,6 +6,7 @@
   "item.cyberextras.eye_pickaxe": "Eye Pickaxe",
   "item.cyberextras.eye_shovel": "Eye Shovel",
   "item.cyberextras.music_disc_blank": "Blank Music Disc",
+  "item.cyberextras.biter_spawn_egg": "Biter Spawn Egg",
 
   "item.cyberextras.audio_log_025_disc": "Music Disc",
   "jukebox_song.cyberextras.audio_log_025": "AUDIO LOG 025 -- The Watcher",
@@ -15,7 +16,11 @@
 
   "block.cyberextras.eye_block": "Eye Block",
 
-  "itemgroup.cyberextras.cyber_extras": "Cyber's Extras",
+  "itemgroup.cyberextras.eye_items": "Eye Items",
+
+  "itemgroup.cyberextras.custom_discs": "Custom Music Discs",
+
+  "itemgroup.cyberextras.the_deep": "The Deep",
 
 
   "entity.cyberextras.biter": "Biter"

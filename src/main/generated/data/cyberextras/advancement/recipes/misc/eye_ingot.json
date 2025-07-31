@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_eye_block.png": {
+    "has_eye_block": {
       "conditions": {
         "items": [
           {
-            "items": "cyberextras:eye_block.png"
+            "items": "cyberextras:eye_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_eye_block.png"
+      "has_eye_block"
     ]
   ],
   "rewards": {

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_disc_fragment_5": {
+    "has_music_disc_blank": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:disc_fragment_5"
+            "items": "cyberextras:music_disc_blank"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_disc_fragment_5"
+      "has_music_disc_blank"
     ]
   ],
   "rewards": {

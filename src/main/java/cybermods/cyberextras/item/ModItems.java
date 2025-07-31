@@ -1,6 +1,7 @@
 package cybermods.cyberextras.item;
 
 import cybermods.cyberextras.Cyberextras;
+import cybermods.cyberextras.entity.ModEntities;
 import cybermods.cyberextras.item.custom.EyePickaxeItem;
 import cybermods.cyberextras.item.custom.EyeShovelItem;
 import cybermods.cyberextras.item.custom.EyeSwordItem;
@@ -10,6 +11,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SpawnEggItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -38,7 +40,7 @@ public class ModItems {
 
     public static final Item MUSIC_DISC_BLANK = registerItem("music_disc_blank", new Item(new Item.Settings()));
 
-
+    public static final Item BITER_SPAWN_EGG = registerItem("biter_spawn_egg", new SpawnEggItem(ModEntities.BITER, 0xafeeee, 0xf80000, new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Cyberextras.MOD_ID, name), item);
