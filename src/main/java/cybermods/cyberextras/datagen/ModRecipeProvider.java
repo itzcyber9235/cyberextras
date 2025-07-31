@@ -69,14 +69,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('F', Items.DISC_FRAGMENT_5)
                 .criterion(hasItem(Items.DISC_FRAGMENT_5), conditionsFromItem(Items.DISC_FRAGMENT_5))
                 .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 2)
-                .pattern("EEE")
-                .pattern("EDE")
-                .pattern("EEE")
-                .input('E', Items.ECHO_SHARD)
-                .input('D', ModItems.MUSIC_DISC_BLANK)
-                .criterion(hasItem(Items.DISC_FRAGMENT_5), conditionsFromItem(Items.DISC_FRAGMENT_5))
-                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MUSIC_DISC_BLANK)+ "_duplicator"));
+
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AUDIO_LOG_025_DISC, 1)
                 .input(ModItems.MUSIC_DISC_BLANK)
@@ -89,6 +82,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.COOKIE)
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
                 .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.ECHO_SHARD)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MUSIC_DISC_BLANK) + "_duplicator"));
 
     }
 }

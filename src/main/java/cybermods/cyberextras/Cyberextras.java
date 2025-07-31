@@ -1,6 +1,8 @@
 package cybermods.cyberextras;
 
 import cybermods.cyberextras.block.ModBlocks;
+import cybermods.cyberextras.entity.ModEntities;
+import cybermods.cyberextras.entity.custom.BiterEntity;
 import cybermods.cyberextras.item.ModItemGroups;
 import cybermods.cyberextras.item.ModItems;
 import cybermods.cyberextras.util.EyePickaxeUsageEvent;
@@ -9,6 +11,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,6 +30,7 @@ public class Cyberextras implements ModInitializer {
 		//This is taking the registrModItems function from the ModItems class and applying its code into this function which is called once when the mod is loaded into the game.
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
 
 
 		PlayerBlockBreakEvents.BEFORE.register(new EyePickaxeUsageEvent());
@@ -34,5 +38,6 @@ public class Cyberextras implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		//Same as the registerModitems function above but for registerItemgroups from the moditemgroups class.
 
+		FabricDefaultAttributeRegistry.register(ModEntities.BITER, BiterEntity.createAttributes());
 	}
 }
