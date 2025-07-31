@@ -18,6 +18,9 @@
 		"main": [
 			"cybermods.cyberextras.Cyberextras"
 		],
+		"client": [
+			"cybermods.cyberextras.CyberextrasClient"
+		],
 		"fabric-datagen": [
 			"cybermods.cyberextras.CyberextrasDataGenerator"
 		]
