@@ -33,6 +33,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EYE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EYE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MUSIC_DISC_BLANK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BITER_BUCKET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_BITER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_BITER, Models.GENERATED);
 
 
         itemModelGenerator.register(ModItems.AUDIO_LOG_025_DISC, Models.GENERATED);

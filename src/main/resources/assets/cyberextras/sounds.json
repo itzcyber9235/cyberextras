@@ -14,5 +14,26 @@
         "stream": true
       }
     ]
+  },
+  "biter_hurt":{
+    "sounds": [
+      {
+        "name": "cyberextras:biter_hurt"
+      }
+    ]
+  },
+  "biter_ambient":{
+    "sounds": [
+      {
+        "name": "cyberextras:biter_ambient"
+      }
+    ]
+  },
+  "biter_death":{
+    "sounds": [
+      {
+        "name": "cyberextras:biter_death"
+      }
+    ]
   }
 }

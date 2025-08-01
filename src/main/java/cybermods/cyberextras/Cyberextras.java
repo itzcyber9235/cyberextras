@@ -7,6 +7,7 @@ import cybermods.cyberextras.item.ModItemGroups;
 import cybermods.cyberextras.item.ModItems;
 import cybermods.cyberextras.util.EyePickaxeUsageEvent;
 import cybermods.cyberextras.util.EyeShovelUsageEvent;
+import cybermods.cyberextras.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
@@ -31,6 +32,8 @@ public class Cyberextras implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModEntities.registerModEntities();
+
+		ModWorldGeneration.generateModWorldGen();
 
 
 		PlayerBlockBreakEvents.BEFORE.register(new EyePickaxeUsageEvent());

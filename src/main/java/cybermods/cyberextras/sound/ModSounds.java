@@ -19,6 +19,11 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> NYAN_CAT_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Cyberextras.MOD_ID, "nyan_cat"));
 
+    public static final SoundEvent BITER_HURT = registerSoundEvent("biter_hurt");
+    public static final SoundEvent BITER_AMBIENT = registerSoundEvent("biter_ambient");
+    public static final SoundEvent BITER_DEATH = registerSoundEvent("biter_death");
+
+
     private static SoundEvent registerSoundEvent (String name){
         Identifier id = Identifier.of(Cyberextras.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

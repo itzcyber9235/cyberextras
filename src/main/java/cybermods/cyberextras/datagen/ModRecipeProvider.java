@@ -89,6 +89,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MUSIC_DISC_BLANK) + "_duplicator"));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BITER_BUCKET, 1)
+                .input(ModItems.RAW_BITER)
+                .input(Items.WATER_BUCKET)
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.COD_BUCKET, 1)
+                .input(Items.COD)
+                .input(Items.WATER_BUCKET)
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.SALMON_BUCKET, 1)
+                .input(Items.SALMON)
+                .input(Items.WATER_BUCKET)
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PUFFERFISH_BUCKET, 1)
+                .input(Items.PUFFERFISH)
+                .input(Items.WATER_BUCKET)
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter);
     }
 }
 

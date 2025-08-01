@@ -7,21 +7,21 @@
   "item.cyberextras.eye_shovel": "Eye Shovel",
   "item.cyberextras.music_disc_blank": "Blank Music Disc",
   "item.cyberextras.biter_spawn_egg": "Biter Spawn Egg",
-
+  "item.cyberextras.biter_bucket": "Bucket of Biter",
   "item.cyberextras.audio_log_025_disc": "Music Disc",
-  "jukebox_song.cyberextras.audio_log_025": "AUDIO LOG 025 -- The Watcher",
-
   "item.cyberextras.music_disc_nyan_cat": "Music Disc",
-  "jukebox_song.cyberextras.nyan_cat": "Nyan Cat! [Original] -- NyanCat",
+  "item.cyberextras.raw_biter": "Raw Biter",
+  "item.cyberextras.cooked_biter": "Cooked Biter",
 
   "block.cyberextras.eye_block": "Eye Block",
 
+  "entity.cyberextras.biter": "Biter",
+
   "itemgroup.cyberextras.eye_items": "Eye Items",
-
   "itemgroup.cyberextras.custom_discs": "Custom Music Discs",
-
   "itemgroup.cyberextras.the_deep": "The Deep",
 
+  "jukebox_song.cyberextras.audio_log_025": "AUDIO LOG 025 -- The Watcher",
+  "jukebox_song.cyberextras.nyan_cat": "Nyan Cat! [Original] -- NyanCat"
 
-  "entity.cyberextras.biter": "Biter"
 }

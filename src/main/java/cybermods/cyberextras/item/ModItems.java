@@ -9,11 +9,12 @@ import cybermods.cyberextras.sound.ModSounds;
 import cybermods.cyberextras.util.ModTags;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SpawnEggItem;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.fluid.WaterFluid;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -34,13 +35,17 @@ public class ModItems {
 
     public static final Item AUDIO_LOG_025_DISC = registerItem("audio_log_025_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.AUDIO_LOG_025_KEY).maxCount(1)));
-
     public static final Item MUSIC_DISC_NYAN_CAT = registerItem("music_disc_nyan_cat",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.NYAN_CAT_KEY).maxCount(1)));
-
     public static final Item MUSIC_DISC_BLANK = registerItem("music_disc_blank", new Item(new Item.Settings()));
 
+    public static final Item BITER_BUCKET = registerItem("biter_bucket", new EntityBucketItem(ModEntities.BITER, Fluids.WATER, SoundEvents.ITEM_BUCKET_EMPTY_FISH, new Item.Settings().maxCount(1)));
+
     public static final Item BITER_SPAWN_EGG = registerItem("biter_spawn_egg", new SpawnEggItem(ModEntities.BITER, 0xafeeee, 0xf80000, new Item.Settings()));
+
+    public static final Item RAW_BITER = registerItem("raw_biter", new Item(new Item.Settings().food(ModfoodComponents.RAW_BITER)));
+    public static final Item COOKED_BITER = registerItem("cooked_biter", new Item(new Item.Settings().food(ModfoodComponents.COOKED_BITER)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Cyberextras.MOD_ID, name), item);

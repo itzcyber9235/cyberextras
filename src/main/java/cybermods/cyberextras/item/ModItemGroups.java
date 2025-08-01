@@ -46,7 +46,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BITER_SPAWN_EGG))
                     .displayName(Text.translatable("itemgroup.cyberextras.the_deep"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.BITER_BUCKET);
+                        entries.add(ModItems.RAW_BITER);
+                        entries.add(ModItems.COOKED_BITER);
                         entries.add(ModItems.BITER_SPAWN_EGG);
+
                     }).build());
 
     public static void registerItemGroups(){
