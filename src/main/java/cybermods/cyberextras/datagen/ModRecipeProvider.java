@@ -9,6 +9,8 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.RecipeSerializer;
+import net.minecraft.recipe.SmokingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -21,6 +23,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModRecipeProvider extends FabricRecipeProvider {
 
     public static final List<ItemConvertible> EYE_SMELTABLES = List.of(ModItems.COMPACTED_EYE_DUST);
+    public static final List<ItemConvertible> BITER_SMELTABLES = List.of(ModItems.RAW_BITER);
 
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
@@ -31,6 +34,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmelting(exporter, EYE_SMELTABLES, RecipeCategory.MISC,
                 ModItems.EYE_INGOT, 0.7f, 200, "eye");
+
+        offerBlasting(exporter, EYE_SMELTABLES, RecipeCategory.MISC,
+                ModItems.EYE_INGOT, 1.0f, 100, "eye");
+
+        offerSmelting(exporter, BITER_SMELTABLES, RecipeCategory.FOOD,
+                ModItems.COOKED_BITER, 1.0f, 200, "biter");
+        offerFoodCookingRecipe(exporter, "smoking",
+                RecipeSerializer.SMOKING, SmokingRecipe::new, 100, ModItems.RAW_BITER, ModItems.COOKED_BITER, 0.2f);
 
         offerShapelessRecipe(exporter, ModItems.EYE_DUST, Items.ENDER_EYE, "EYE", 2);
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.COMPACTED_EYE_DUST, ModItems.EYE_DUST);
