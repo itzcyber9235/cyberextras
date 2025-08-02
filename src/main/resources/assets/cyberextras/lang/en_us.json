@@ -10,6 +10,11 @@
   "item.cyberextras.biter_bucket": "Bucket of Biter",
   "item.cyberextras.audio_log_025_disc": "Music Disc",
   "item.cyberextras.music_disc_nyan_cat": "Music Disc",
+  "item.cyberextras.music_disc_pool_broom": "Music Disc",
+  "item.cyberextras.music_disc_first_class": "Music Disc",
+  "item.cyberextras.music_disc_bouncy_mushrooms": "Music Disc",
+  "item.cyberextras.music_disc_serious_silly": "Music Disc",
+  "item.cyberextras.music_disc_dark_flame": "Music Disc",
   "item.cyberextras.raw_biter": "Raw Biter",
   "item.cyberextras.cooked_biter": "Cooked Biter",
 
@@ -21,7 +26,13 @@
   "itemgroup.cyberextras.custom_discs": "Custom Music Discs",
   "itemgroup.cyberextras.the_deep": "The Deep",
 
-  "jukebox_song.cyberextras.audio_log_025": "AUDIO LOG 025 -- The Watcher",
-  "jukebox_song.cyberextras.nyan_cat": "Nyan Cat! [Original] -- NyanCat"
+  "jukebox_song.cyberextras.audio_log_025": "The Watcher - AUDIO LOG 025",
+  "jukebox_song.cyberextras.nyan_cat": " NyanCat - Nyan Cat! [Original]",
+  "jukebox_song.cyberextras.pool_broom": "Astelina - Im Cleaning the Pool with a Broom!",
+  "jukebox_song.cyberextras.first_class": "Astelina - First Class Silly",
+  "jukebox_song.cyberextras.bouncy_mushrooms": "Astelina - Bouncy Mushrooms",
+  "jukebox_song.cyberextras.serious_silly": "Astelina - Serious Silly",
+  "jukebox_song.cyberextras.dark_flame": "Astelina - A Dark Flame [Original]"
+
 
 }

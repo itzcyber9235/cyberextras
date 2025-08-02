@@ -15,6 +15,46 @@
       }
     ]
   },
+  "pool_broom":{
+    "sounds": [
+      {
+        "name": "cyberextras:pool_broom",
+        "stream": true
+      }
+    ]
+  },
+  "first_class":{
+    "sounds": [
+      {
+        "name": "cyberextras:first_class",
+        "stream": true
+      }
+    ]
+  },
+  "bouncy_mushrooms":{
+    "sounds": [
+      {
+        "name": "cyberextras:bouncy_mushrooms",
+        "stream": true
+      }
+    ]
+  },
+  "serious_silly":{
+    "sounds": [
+      {
+        "name": "cyberextras:serious_silly",
+        "stream": true
+      }
+    ]
+  },
+  "dark_flame":{
+    "sounds": [
+      {
+        "name": "cyberextras:dark_flame",
+        "stream": true
+      }
+    ]
+  },
   "biter_hurt":{
     "sounds": [
       {

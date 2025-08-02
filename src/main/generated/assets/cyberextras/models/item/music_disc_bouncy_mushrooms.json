@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cyberextras:item/music_disc_bouncy_mushrooms"
+  }
+}

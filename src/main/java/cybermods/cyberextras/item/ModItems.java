@@ -37,7 +37,19 @@ public class ModItems {
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.AUDIO_LOG_025_KEY).maxCount(1)));
     public static final Item MUSIC_DISC_NYAN_CAT = registerItem("music_disc_nyan_cat",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.NYAN_CAT_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_POOL_BROOM = registerItem("music_disc_pool_broom",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.POOL_BROOM_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_FIRST_CLASS = registerItem("music_disc_first_class",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.FIRST_CLASS_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_BOUNCY_MUSHROOMS = registerItem("music_disc_bouncy_mushrooms",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BOUNCY_MUSHROOMS_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_SERIOUS_SILLY = registerItem("music_disc_serious_silly",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.SERIOUS_SILLY_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_DARK_FLAME = registerItem("music_disc_dark_flame",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DARK_FLAME_KEY).maxCount(1)));
+
     public static final Item MUSIC_DISC_BLANK = registerItem("music_disc_blank", new Item(new Item.Settings()));
+
 
     public static final Item BITER_BUCKET = registerItem("biter_bucket", new EntityBucketItem(ModEntities.BITER, Fluids.WATER, SoundEvents.ITEM_BUCKET_EMPTY_FISH, new Item.Settings().maxCount(1)));
 

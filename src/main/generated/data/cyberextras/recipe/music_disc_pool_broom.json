@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyberextras:music_disc_blank"
+    },
+    {
+      "item": "minecraft:brush"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cyberextras:music_disc_pool_broom"
+  }
+}

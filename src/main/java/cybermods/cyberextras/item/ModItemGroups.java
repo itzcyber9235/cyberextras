@@ -39,6 +39,11 @@ public class ModItemGroups {
                     entries.add(ModItems.MUSIC_DISC_BLANK);
                     entries.add(ModItems.AUDIO_LOG_025_DISC);
                     entries.add(ModItems.MUSIC_DISC_NYAN_CAT);
+                    entries.add(ModItems.MUSIC_DISC_SERIOUS_SILLY);
+                    entries.add(ModItems.MUSIC_DISC_DARK_FLAME);
+                    entries.add(ModItems.MUSIC_DISC_FIRST_CLASS);
+                    entries.add(ModItems.MUSIC_DISC_BOUNCY_MUSHROOMS);
+                    entries.add(ModItems.MUSIC_DISC_POOL_BROOM);
                     }).build());
 
     public static final ItemGroup THE_DEEP = Registry.register(Registries.ITEM_GROUP,

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_music_disc_blank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cyberextras:music_disc_blank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cyberextras:music_disc_bouncy_mushrooms"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_music_disc_blank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cyberextras:music_disc_bouncy_mushrooms"
+    ]
+  }
+}

@@ -94,6 +94,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
                 .offerTo(exporter);
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_POOL_BROOM, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.BRUSH)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_FIRST_CLASS, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.BOOK)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BOUNCY_MUSHROOMS, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.RED_MUSHROOM)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_SERIOUS_SILLY, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.MAGENTA_DYE)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_DARK_FLAME, 1)
+                .input(ModItems.MUSIC_DISC_BLANK)
+                .input(Items.SOUL_TORCH)
+                .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 1)
                 .input(ModItems.MUSIC_DISC_BLANK)
                 .input(Items.ECHO_SHARD)

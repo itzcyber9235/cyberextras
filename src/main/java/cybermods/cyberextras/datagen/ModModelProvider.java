@@ -41,6 +41,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.AUDIO_LOG_025_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_NYAN_CAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_POOL_BROOM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_FIRST_CLASS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_BOUNCY_MUSHROOMS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_SERIOUS_SILLY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_DARK_FLAME, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BITER_SPAWN_EGG
         , new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
