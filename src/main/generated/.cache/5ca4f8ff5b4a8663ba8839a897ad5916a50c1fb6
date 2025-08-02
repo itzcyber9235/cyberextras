@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-01T22:57:34.611988409	cyberextras/Recipes
+// 1.21.1	2025-08-02T09:46:08.057288506	cyberextras/Recipes
 1635849f312760409988524bb612bbaa6972bf68 data/cyberextras/recipe/salmon_bucket.json
 049ea13b7494e45a433f68b7ccf101f201e0417a data/cyberextras/recipe/eye_block.json
 62ca42fc328874a67f0f1f97a3cc5844b84ce6a2 data/cyberextras/advancement/recipes/misc/music_disc_first_class.json
@@ -16,7 +16,7 @@ f30650f27c11e65b373b16478add74321198500c data/cyberextras/recipe/eye_ingot_from_
 21693bd4e79d27d03996bc3fba30eea007ace86c data/cyberextras/recipe/music_disc_nyan_cat.json
 b4697cfd91b17d70ee69572794fb252d9b18e266 data/cyberextras/recipe/audio_log_025_disc.json
 72b8a1f2118ad6ef9b9b95535f879f6fbc51ce55 data/cyberextras/advancement/recipes/misc/biter_bucket.json
-29691b1d068a6dccf1828e8c37d3783cf880b590 data/cyberextras/recipe/music_disc_blank_duplicator.json
+1317538b5f4e173b82cf4b81b01799a4367f0785 data/cyberextras/recipe/music_disc_blank_duplicator.json
 b2c1cefbaddde2a4041aa5331f9e0f0e5b2aa2e5 data/cyberextras/advancement/recipes/misc/cod_bucket.json
 1d68ca9f513dae548b3c43f4a4abbb6862928bc0 data/cyberextras/advancement/recipes/misc/pufferfish_bucket.json
 831e82f5eb9628a8f52447adbd06e130ad6c2d36 data/cyberextras/recipe/music_disc_dark_flame.json

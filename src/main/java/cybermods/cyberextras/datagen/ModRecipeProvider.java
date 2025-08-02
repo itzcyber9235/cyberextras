@@ -120,7 +120,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MUSIC_DISC_BLANK, 2)
                 .input(ModItems.MUSIC_DISC_BLANK)
                 .input(Items.ECHO_SHARD)
                 .criterion(hasItem(ModItems.MUSIC_DISC_BLANK), conditionsFromItem(ModItems.MUSIC_DISC_BLANK))
